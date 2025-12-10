@@ -1,5 +1,5 @@
 controller:
   replicaCount: 2
-  # service:
-  #   type: LoadBalancer
-  #   externalIP: 192.168.1.222
+  service:
+    type: ClusterIP
+    # externalIP: 192.168.1.222
