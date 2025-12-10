@@ -3,11 +3,3 @@ controller:
   service:
     type: LoadBalancer
     externalIP: 192.168.1.222
-providers:
-  kubernetesCRD:
-    allowCrossNamespace: true
-    allowExternalNameServices: true
-  kubernetesIngress:
-    allowExternalNameServices: true
-    publishedService:
-      enabled: true
